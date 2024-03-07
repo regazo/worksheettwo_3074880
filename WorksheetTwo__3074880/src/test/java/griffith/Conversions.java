@@ -25,9 +25,8 @@ public class Conversions {
     }
 
     // Method stub that coverts the uppercase letters to the lowercase letters
-    public String upperCaseToLowerCase(String input) {
-        // we implement later
-        return null;
+    public static String upperCaseToLowerCase(String input) {
+        return input.toLowerCase();
     }
 
     // Method stub that coverts the lowercase letters to the uppercase letters
