@@ -9,10 +9,10 @@ public class Conversions {
     }
 
     // Method stub that coverts the Fahrenheit to Celsius
-    public double fahrenheitToCelsius(double fahrenheit) {
-        // we implement later
-        return 0.0;
+    public static double fahrenheitToCelsius(double fahrenheit) {
+        return (fahrenheit - 32) * 5 / 9;
     }
+
 
     // Method stub that coverts the miles to kilometers
     public double milesToKilometer(double miles) {

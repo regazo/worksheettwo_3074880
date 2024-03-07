@@ -21,4 +21,5 @@ public void testFahrenheitToCelsius() {
     assertEquals("212 Fahrenheit should be 100 Celsius", 100.0, Conversions.fahrenheitToCelsius(212), 0.001);
     assertEquals("-40 Fahrenheit should be -40 Celsius", -40.0, Conversions.fahrenheitToCelsius(-40), 0.001);
 }
+}
     
