@@ -21,5 +21,13 @@ public void testFahrenheitToCelsius() {
     assertEquals("212 Fahrenheit should be 100 Celsius", 100.0, Conversions.fahrenheitToCelsius(212), 0.001);
     assertEquals("-40 Fahrenheit should be -40 Celsius", -40.0, Conversions.fahrenheitToCelsius(-40), 0.001);
 }
+// Unit test for milesToKilometer method
+@Test
+public void testMilesToKilometer() {
+    assertEquals("1 mile should be approximately 1.60934 kilometers", 1.60934, Conversions.milesToKilometer(1), 0.001);
+    assertEquals("5 miles should be approximately 8.0467 kilometers", 8.0467, Conversions.milesToKilometer(5), 0.001);
+    assertEquals("0 miles should be 0 kilometers", 0.0, Conversions.milesToKilometer(0), 0.001);
+}
+
 }
     
