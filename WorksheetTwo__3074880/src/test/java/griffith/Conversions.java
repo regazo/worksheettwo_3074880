@@ -4,9 +4,8 @@ package griffith;
 public class Conversions {
 
     // Method stub that coverts the Celsius to Fahrenheit
-    public double celsiusToFahrenheit(double celsius) {
-        // we implement later
-        return 0.0;
+    public static double celsiusToFahrenheit(double celsius) {
+        return (celsius * 9 / 5) + 32;
     }
 
     // Method stub that coverts the Fahrenheit to Celsius
