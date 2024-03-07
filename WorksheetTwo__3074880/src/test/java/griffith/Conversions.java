@@ -15,9 +15,8 @@ public class Conversions {
 
 
     // Method stub that coverts the miles to kilometers
-    public double milesToKilometer(double miles) {
-        // we implement later
-        return 0.0;
+    public static double milesToKilometer(double miles) {
+        return miles * 1.60934;
     }
 
     // Method stub that coverts the kilometers to miles
