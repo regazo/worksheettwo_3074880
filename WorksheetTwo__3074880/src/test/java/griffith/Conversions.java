@@ -20,9 +20,8 @@ public class Conversions {
     }
 
     // Method stub that coverts the kilometers to miles
-    public double kilometerToMiles(double kilometers) {
-        // we implement later
-        return 0.0;
+    public static double kilometerToMiles(double kilometers) {
+        return kilometers * 0.62137;
     }
 
     // Method stub that coverts the uppercase letters to the lowercase letters
