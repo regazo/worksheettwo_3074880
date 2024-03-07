@@ -35,6 +35,20 @@ public void testKilometerToMiles() {
     assertEquals("10 kilometers should be approximately 6.21371 miles", 6.21371, Conversions.kilometerToMiles(10), 0.001);
     assertEquals("0 kilometers should be 0 miles", 0.0, Conversions.kilometerToMiles(0), 0.001);
 }
-
+//Unit test for upperCaseToLowerCase method
+@Test
+public void testUpperCaseToLowerCase() {
+    assertEquals("Convert HELLO to hello", "hello", Conversions.upperCaseToLowerCase("HELLO"));
+    assertEquals("Convert WORLD to world", "world", Conversions.upperCaseToLowerCase("WORLD"));
+    assertEquals("Convert 123 to 123", "123", Conversions.upperCaseToLowerCase("123"));
 }
+// Unit test for lowerCaseToUpperCase method
+@Test
+public void testLowerCaseToUpperCase() {
+    assertEquals("Convert hello to HELLO", "HELLO", Conversions.lowerCaseToUpperCase("hello"));
+    assertEquals("Convert world to WORLD", "WORLD", Conversions.lowerCaseToUpperCase("world"));
+    assertEquals("Convert 123 to 123", "123", Conversions.lowerCaseToUpperCase("123"));
+}
+}
+
     
