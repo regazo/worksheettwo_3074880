@@ -30,9 +30,8 @@ public class Conversions {
     }
 
     // Method stub that coverts the lowercase letters to the uppercase letters
-    public String lowerCaseToUpperCase(String input) {
-        // we implement later
-        return null;
+    public static String lowerCaseToUpperCase(String input) {
+        return input.toUpperCase();
     }
 }
 
