@@ -28,6 +28,13 @@ public void testMilesToKilometer() {
     assertEquals("5 miles should be approximately 8.0467 kilometers", 8.0467, Conversions.milesToKilometer(5), 0.001);
     assertEquals("0 miles should be 0 kilometers", 0.0, Conversions.milesToKilometer(0), 0.001);
 }
+// Unit test for kilometerToMiles method
+@Test
+public void testKilometerToMiles() {
+    assertEquals("1 kilometer should be approximately 0.621371 miles", 0.621371, Conversions.kilometerToMiles(1), 0.001);
+    assertEquals("10 kilometers should be approximately 6.21371 miles", 6.21371, Conversions.kilometerToMiles(10), 0.001);
+    assertEquals("0 kilometers should be 0 miles", 0.0, Conversions.kilometerToMiles(0), 0.001);
+}
 
 }
     
